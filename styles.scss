@@ -12,13 +12,34 @@ body {
   background-color: $soft-red;
   width: 500px;
   margin-top: 20vh;
-  border-radius: 10px;
+  border-radius: 15px;
   color: white;
   font-family: "DM Sans";
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#balanceText {
+  margin: 20px 0 0 0;
 }
 
 #balanceAmountText {
   font-size: 30px;
   font-weight: 700;
+  margin: 10px 0 20px 0;
+}
+
+#balanceLogo {
+  width: 70px;
+  height: 70px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./public/logo.svg");
 }
