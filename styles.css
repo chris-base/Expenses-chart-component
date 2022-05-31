@@ -53,4 +53,62 @@ body {
   background-position: center;
   background-image: url("./public/logo.svg");
 }
+
+#spendingContainer {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 25px;
+  width: 500px;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  font-family: "DM Sans";
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#spendingMainText {
+  font-size: 27px;
+  font-weight: 700;
+  color: #382314;
+}
+
+#spendingHR {
+  width: 100%;
+  border: 1px solid #f8e9dd;
+  opacity: 0.5;
+  margin: 20px 0;
+}
+
+#totalContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.totalSubTexts {
+  color: #93867b;
+  margin: 0;
+}
+
+#totalNumberText {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: #382314;
+}
+
+#percentageNumberText {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  text-align: end;
+}
 /*# sourceMappingURL=styles.css.map */

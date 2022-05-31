@@ -1,6 +1,9 @@
 @import "colors";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
+$containerWidths: 500px;
+$containerPadding: 0 30px;
+
 body {
   background-color: $cream;
   display: flex;
@@ -10,7 +13,7 @@ body {
 
 #balanceContainer {
   background-color: $soft-red;
-  width: 500px;
+  width: $containerWidths;
   margin-top: 20vh;
   border-radius: 15px;
   color: white;
@@ -19,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: $containerPadding;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -42,4 +45,60 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("./public/logo.svg");
+}
+
+#spendingContainer {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 25px;
+  width: $containerWidths;
+  padding: $containerPadding;
+  padding-bottom: 30px;
+  font-family: "DM Sans";
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#spendingMainText {
+  font-size: 27px;
+  font-weight: 700;
+  color: $dark-brown;
+}
+
+#spendingHR {
+  width: 100%;
+  border: 1px solid $cream;
+  opacity: 0.5;
+  margin: 20px 0;
+}
+
+#totalContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#totalTextContainer {
+}
+
+.totalSubTexts {
+  color: $medium-brown;
+  margin: 0;
+}
+
+#totalNumberText {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: $dark-brown;
+}
+
+#percentageNumberText {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  text-align: end;
 }
