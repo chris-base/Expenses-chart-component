@@ -67,6 +67,53 @@ body {
   color: $dark-brown;
 }
 
+#spendingGraphContainter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayText {
+  color: $medium-brown;
+}
+
+.dayGraphClass {
+  height: 100px;
+  width: 50px;
+  background-color: $soft-red;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#monGraphContainer {
+  width: 50px;
+}
+
+#tueGraphContainer {
+}
+
+#wedGraphContainer {
+  background-color: $cyan;
+}
+
+#thuGraphContainer {
+}
+
+#friGraphContainer {
+}
+
+#satGraphContainer {
+}
+
+#sunGraphContainer {
+}
+
 #spendingHR {
   width: 100%;
   border: 1px solid $cream;

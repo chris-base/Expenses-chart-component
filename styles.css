@@ -73,6 +73,52 @@ body {
   color: #382314;
 }
 
+#spendingGraphContainter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dayContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dayText {
+  color: #93867b;
+}
+
+.dayGraphClass {
+  height: 100px;
+  width: 50px;
+  background-color: #ec775f;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#monGraphContainer {
+  width: 50px;
+}
+
+#wedGraphContainer {
+  background-color: #76b5bc;
+}
+
 #spendingHR {
   width: 100%;
   border: 1px solid #f8e9dd;
