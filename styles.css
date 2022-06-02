@@ -71,6 +71,7 @@ body {
   font-size: 27px;
   font-weight: 700;
   color: #382314;
+  margin-bottom: 5px;
 }
 
 #spendingGraphContainter {
@@ -97,6 +98,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .dayText {
@@ -104,19 +108,61 @@ body {
 }
 
 .dayGraphClass {
-  height: 100px;
   width: 50px;
   background-color: #ec775f;
   border-radius: 7px;
   cursor: pointer;
+  margin-top: 7px;
+}
+
+.hoverCostContainer {
+  background-color: #382314;
+  padding: 0;
+  border-radius: 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2px 5px;
+}
+
+.hoverCostText {
+  line-height: 0;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 #monGraphContainer {
-  width: 50px;
+  height: 50px;
+}
+
+#tueGraphContainer {
+  height: 100px;
 }
 
 #wedGraphContainer {
   background-color: #76b5bc;
+  height: 150px;
+}
+
+#thuGraphContainer {
+  height: 80px;
+}
+
+#friGraphContainer {
+  height: 60px;
+}
+
+#satGraphContainer {
+  height: 120px;
+}
+
+#sunGraphContainer {
+  height: 70px;
 }
 
 #spendingHR {
