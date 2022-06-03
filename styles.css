@@ -16,7 +16,7 @@ body {
 #balanceContainer {
   background-color: #ec775f;
   width: 500px;
-  margin-top: 20vh;
+  margin-top: 15vh;
   border-radius: 15px;
   color: white;
   font-family: "DM Sans";
@@ -127,6 +127,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 2px 5px;
+  opacity: 0;
 }
 
 .hoverCostText {
