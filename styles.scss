@@ -175,3 +175,31 @@ body {
   width: 100%;
   text-align: end;
 }
+
+.totalSubTexts {
+  white-space: nowrap;
+}
+
+@media (max-width: 525px) {
+  #balanceContainer {
+    width: 98%;
+    margin-top: 10vh;
+  }
+
+  #spendingContainer {
+    width: 98%;
+  }
+
+  #spendingGraphContainter {
+    margin: 0 -25px;
+  }
+
+  .dayContainer {
+    padding: 0;
+    width: 10%;
+  }
+
+  .dayGraphClass {
+    width: 100%;
+  }
+}
