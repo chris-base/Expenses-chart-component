@@ -10,13 +10,11 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+Create a clean layout based on provided designs, with mobile layouts. Create graph with hoverable elements that change opacity and show div with statistics showing for each bar in the graph.
 
 ### The challenge
 
@@ -30,14 +28,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/expenses-chart-component-screenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://chris-base.github.io/Expenses-chart-component/)
 
 ## My process
+
+Created mobile/desktop layouts based on provided design patterns. Set up script to add on hover to bars in graph to show elements/update elements.
 
 ### Built with
 
@@ -47,10 +47,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Chris Base](https://github.com/chris-base)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/chris-base)
