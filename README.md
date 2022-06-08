@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://chris-base.github.io/Expenses-chart-component/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/expenses-chart-0AwE_R5tKM)
+- Live Site URL: [Live Site](https://chris-base.github.io/Expenses-chart-component/)
 
 ## My process
 
@@ -50,4 +50,4 @@ Created mobile/desktop layouts based on provided design patterns. Set up script 
 ## Author
 
 - Website - [Chris Base](https://github.com/chris-base)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/chris-base)
+- Frontend Mentor - [@chris-base](https://www.frontendmentor.io/profile/chris-base)
